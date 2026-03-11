@@ -8,11 +8,9 @@ A professional system automation and maintenance suite for Kali Linux.
 - **Automation**: Managed via `systemd` timers on a 4-hour cycle.
 
 ## 🛠️ Installation
-\`\`\`bash
-git clone https://github.com/YOUR_USERNAME/Core-Pilot-Pro.git
-cd Core-Pilot-Pro
-sudo ./install.sh
-\`\`\`
+```bash
+git clone https://github.com/GarvZenith/Core-Pilot-Pro.git && cd Core-Pilot-Pro && sudo ./install.sh
+```
 
 ## 📝 Human-Style Design
 - **DBUS Handshake**: Manually exports session bus paths to ensure UI reliability.
