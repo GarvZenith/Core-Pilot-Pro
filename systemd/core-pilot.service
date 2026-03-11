@@ -1,0 +1,16 @@
+[Unit]
+Description=Core Pilot Pro System Manager
+After=graphical.target
+
+[Service]
+Type=oneshot
+# Points to your newly executable script
+ExecStart=/usr/local/bin/core-pilot-pro.sh
+RemainAfterExit=yes
+
+# Desktop Handshake
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/zenith/.Xauthority
+
+[Install]
+WantedBy=graphical.target

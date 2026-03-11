@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Core Pilot Pro every 4 hours
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=4h
+Unit=core-pilot.service
+
+[Install]
+WantedBy=timers.target
+
